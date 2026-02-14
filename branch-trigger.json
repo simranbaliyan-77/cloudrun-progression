@@ -1,0 +1,12 @@
+{
+  "triggerTemplate": {
+    "projectId": "qwiklabs-gcp-01-7d5d4fe3823d",
+    "repoName": "cloudrun-progression",
+    "branchName": "[^(?!.*master)].*"
+  },
+  "name": "branch",
+  "description": "Trigger dev build/deploy for any branch other than master",
+
+  "filename": "branch-cloudbuild.yaml",
+  "serviceAccount": "projects/qwiklabs-gcp-01-7d5d4fe3823d/serviceAccounts/34025246862-compute@developer.gserviceaccount.com"
+}
